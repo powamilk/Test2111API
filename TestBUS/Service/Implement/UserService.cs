@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TestBUS.Service.Interface;
-using TestBUS.ViewModel;
+using TestBUS.ViewModel.User;
 using TestDAL.Entities;
 using TestDAL.Repositories.Interface;
 

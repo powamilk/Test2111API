@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TestBUS.ViewModel;
+using TestBUS.ViewModel.User;
 
 namespace TestBUS.Service.Interface
 {

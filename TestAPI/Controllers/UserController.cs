@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using TestBUS.Service.Interface;
-using TestBUS.ViewModel;
+using TestBUS.ViewModel.User;
 
 namespace TestAPI.Controllers
 {

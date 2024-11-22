@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TestBUS.ViewModel
+namespace TestBUS.ViewModel.User
 {
-    public class UserUpdateVM
+    public class UserVM
     {
         public int UserId { get; set; }
 
@@ -14,11 +14,17 @@ namespace TestBUS.ViewModel
 
         public string Name { get; set; } = null!;
 
+        public DateTime? CreatedAt { get; set; }
+
         public bool? IsVerified { get; set; }
+
+        public DateTime? LastLogin { get; set; }
 
         public string? Status { get; set; }
 
         public string? PhoneNumber { get; set; }
+
+        public DateTime? EmailVerifiedAt { get; set; }
 
     }
 }
